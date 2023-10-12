@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="item">
+            <div id="home">Home</div>
+            <div id="profile">Profile</div>
+            <div id="settings">Settings</div>
+            <!-- <div id="categories">categories</div> -->
+            <div id="categories" onclick="openDrawer()">categories </div>
+            <div class="drawer" id="settingsDrawer">
+                <ul>
+                  <li><a href="http://localhost:3000/lib.html">Electronics</a></li>
+                  <li><a href="#">Grocery</a></li>
+                  <li><a href="#">Fashion</a></li>
+                  <li><a href="#">Hardware</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+    <header>
+        <h1>Mobile Phones</h1>
+    </header>
+    <main class="product-container">
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/81jeBCCEzXL._AC_UY218_.jpg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2>Product 1</h2>
+                <p>Description for Product 1.</p>
+                <h3>Price: $19.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/61amb0CfMGL._AC_UL320_.jpg" alt="Product 2">
+            </div>
+            <div class="product-details">
+                <h2>Product 2</h2>
+                <p>Description for Product 2.</p>
+                <h3>Price: $29.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/81jeBCCEzXL._AC_UY218_.jpg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2>Product 1</h2>
+                <p>Description for Product 1.</p>
+                <h3>Price: $19.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/712pLRfzDYL._AC_UL320_.jpg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2>Product 1</h2>
+                <p>Description for Product 1.</p>
+                <h3>Price: $19.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Add more products as needed -->
+    </main>
+    <main class="product-container">
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/81jeBCCEzXL._AC_UY218_.jpg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2>Product 1</h2>
+                <p>Description for Product 1.</p>
+                <h3>Price: $19.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-image">
+                <img src="https://m.media-amazon.com/images/I/61amb0CfMGL._AC_UL320_.jpg" alt="Product 2">
+            </div>
+            <div class="product-details">
+                <h2>Product 2</h2>
+                <p>Description for Product 2.</p>
+                <h3>Price: $29.99</h3>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+    </main>    
+</body>
+    <script src="script.js"></script>
+</html>
